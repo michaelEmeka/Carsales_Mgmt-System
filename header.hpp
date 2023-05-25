@@ -15,9 +15,10 @@
 using namespace std;
 
 //global variables
-string companyName;
-string motto;
-string exitMessage;
+extern string companyName;
+extern string motto;
+extern string exitMessage;
+extern void (*operations[5])();
 
 //functions
 

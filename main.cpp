@@ -6,6 +6,7 @@ int main(int argc, char *argv[])
 {
     UNUSED(argc);
     UNUSED(argv);
+    int op;
     string menu[5][2]={
         {"1", "Sell a Car"},
         {"2", "Add a Car"},
@@ -20,7 +21,9 @@ int main(int argc, char *argv[])
         {
             cout<<menu[i][0]+": "+menu[i][1]<<"\n";
         }
-        cout<<"";
+        cout<<"You: ";
+        cin>>op;
+        operations[1];
     };
     return 0;
 }

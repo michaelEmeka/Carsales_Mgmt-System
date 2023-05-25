@@ -33,7 +33,7 @@ public:
         carSpec.weight = Weight;
         carSpec.ltrmile = Ltrmile;
     }
-    //get Car Information
+    //get Car Information - returns a 2D array.
     string (*(getCarInfo)())[P]
     {
         string Spec[][P] = {
